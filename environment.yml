@@ -1,0 +1,12 @@
+name: vizmod
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - selenium
+  - pillow
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - webdriver-manager
